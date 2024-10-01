@@ -84,9 +84,8 @@ server <- function(input, output, session) {
   # Database designation and other settings
   sd_server(
     db = db,
-    use_html = FALSE, # Be sure to render the survey.qmd file first
-    all_questions_required = FALSE,
-    start_page = 'cbc_q1'
+    use_html = TRUE, # Be sure to render the survey.qmd file first
+    all_questions_required = FALSE
   )
 
 }
