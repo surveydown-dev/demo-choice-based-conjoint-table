@@ -233,6 +233,8 @@ sd_next()
 </center>
 
 ```{r}
+sd_output("cbc1_table")
+
 sd_question(
   type   = 'mc_buttons',
   id     = 'cbc_q1',
@@ -241,7 +243,6 @@ sd_question(
   width = "600px"
 )
 
-sd_output("cbc1_table")
 sd_next()
 ```
 
@@ -254,6 +255,8 @@ sd_next()
 </center>
 
 ```{r}
+sd_output("cbc2_table")
+
 sd_question(
   type   = 'mc_buttons',
   id     = 'cbc_q2',
@@ -262,7 +265,6 @@ sd_question(
   width = "600px"
 )
 
-sd_output("cbc2_table")
 sd_next()
 ```
 
@@ -275,6 +277,8 @@ sd_next()
 </center>
 
 ```{r}
+sd_output("cbc3_table")
+
 sd_question(
   type   = 'mc_buttons',
   id     = 'cbc_q3',
@@ -283,7 +287,6 @@ sd_question(
   width = "600px"
 )
 
-sd_output("cbc3_table")
 sd_next()
 ```
 
@@ -296,6 +299,8 @@ sd_next()
 </center>
 
 ```{r}
+sd_output("cbc4_table")
+
 sd_question(
   type   = 'mc_buttons',
   id     = 'cbc_q4',
@@ -304,7 +309,6 @@ sd_question(
   width = "600px"
 )
 
-sd_output("cbc4_table")
 sd_next()
 ```
 
@@ -317,6 +321,8 @@ sd_next()
 </center>
 
 ```{r}
+sd_output("cbc5_table")
+
 sd_question(
   type   = 'mc_buttons',
   id     = 'cbc_q5',
@@ -325,7 +331,6 @@ sd_question(
   width = "600px"
 )
 
-sd_output("cbc5_table")
 sd_next()
 ```
 
@@ -338,6 +343,8 @@ sd_next()
 </center>
 
 ```{r}
+sd_output("cbc6_table")
+
 sd_question(
   type   = 'mc_buttons',
   id     = 'cbc_q6',
@@ -346,7 +353,6 @@ sd_question(
   width = "600px"
 )
 
-sd_output("cbc6_table")
 sd_next()
 ```
 
